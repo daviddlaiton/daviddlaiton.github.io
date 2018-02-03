@@ -1,0 +1,15 @@
+body {
+  font-size: 15px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Karla', sans-serif;
+  color: #868e96;
+}
+
+h1 {
+	color: #343a40;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
