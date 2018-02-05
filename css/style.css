@@ -1,5 +1,5 @@
 body {
-  font-size: 15px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-size: 20px; 
   font-family: 'Karla', sans-serif;
   color: #868e96;
 }
@@ -12,4 +12,14 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.profileImg{
+    padding: 5x0px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.profileImg:hover {
+    transform: scale(1.3);
 }
