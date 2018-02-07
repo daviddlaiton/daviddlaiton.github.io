@@ -8,10 +8,28 @@ h1 {
 	color: #343a40;
 }
 
-.banner {
+.banner{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.BirthdayPhoto {
+   margin: auto;
+    width: 99%;
+    padding: 10px;
+}
+
+.AgePhoto {
+   margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.UniversityPhoto {
+	   margin: auto;
+    width: 62%;
+    padding: 10px;
 }
 
 .profileImg{
@@ -22,4 +40,8 @@ h1 {
 
 .profileImg:hover {
     transform: scale(1.3);
+}
+
+.university{
+	    text-align: center;
 }

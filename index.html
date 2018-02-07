@@ -17,7 +17,7 @@
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">  
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
   <div class="container-fluid">
     <!--Banner-->
     <div class="row">
@@ -27,7 +27,7 @@
 
    <!-- navbar-->
 
-   <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+   <nav class="navbar navbar-expand-sm bg-danger navbar-dark navbar-fixed-to">
     <ul class="navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="#">Andrés David Laiton</a>
@@ -36,16 +36,16 @@
         <a class="nav-link" href="#about">About me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Skills</a>
+        <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">hobbies</a>
+        <a class="nav-link" href="#hobbies">Hobbies</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </nav>
@@ -54,29 +54,96 @@
   <!-- About section-->
 
   <section id="about">
-    <div class="col-sm-1"></div>
     <br>
     <div class="row">
-      <div class="col-sm-"4>
-        <img class="profileImg" src="img/Profile.jpg" alt="Profile photo" height="630" width="504" alt ="profile image">
+      <div class="col-sm-4">
+        <img class="profileImg" src="img/Profile.jpg" alt="Profile photo" height="540" width="432">
       </div>
       <div class="col-sm-6">
        <div class="row">
         <h1>About me</h1>
-        <div class="text">Bootstrap's grid is a useful tool because it lets you organize html elements quickly and reliably. Another characte… https://t.co/mjqsrTNEpD</div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="BirthdayPhoto">
+              <img src="img/Cake.jpg" alt="Birthday Cake" height="104" width="106">
+            </div>
+            <div class="Birthday">August 31st</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="AgePhoto">
+              <img src="img/21.jpg" alt="Age" height="104" width="106">
+            </div>
+            <div class="Age">I'm 21 years old</div>
+          </div>
+          <div class="col-md-4">
+            <div class="UniversityPhoto">
+              <img src="img/Uniandes.jpg" alt="Logo Uniandes" height="104" width="106">
+            </div>
+            <div class="university">Enroled at Universidad de los Andes</div>
+          </div>
+        </div>
       </div>
-      
     </div>
   </div>
-</div>
+</section>
+<!-- ./About-->
+
+<!-- Skills section-->
+<section id="skills">
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Skills</h1>
+    </div>
+  </div>
 </section>
 
-<!-- ./container--> 
+<!-- -/Skills-->
 
+<!-- Projects section-->
+<section id="projects">
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Projects</h1>
+    </div>
+  </div>
+</section>
+<!-- -/Projects-->
+
+<!-- Hobbies section-->
+<section id="hobbies">
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Hobbies</h1>
+    </div>
+  </div>
+</section>
+<!-- -/Hobbies-->
+
+<!-- Contact section-->
+<section id="contact">
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Contact</h1>
+    </div>
+  </div>
+</section>
+<!-- -/Contact-->
+
+</div>
+
+<!-- ./container--> 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
 
+<!-- JS code for SmootScrool on links of the navbar-->
+<script src="SmoothScroll.js"></script>
 </body>
 </html>
