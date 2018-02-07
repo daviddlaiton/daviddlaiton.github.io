@@ -1,1 +1,3 @@
-"# daviddlaiton.github.io" 
+##Personal web page
+
+daviddlaiton.github.io
