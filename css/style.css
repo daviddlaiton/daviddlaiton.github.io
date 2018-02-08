@@ -42,15 +42,7 @@ h1 {
     transform: scale(1.3);
 }
 
-.university{
-	    text-align: center;
-}
-
-.Age{
-	    text-align: center;
-}
-
-.Birthday{
+.university, .Age, .Birthday, .Mail{
 	    text-align: center;
 }
 
@@ -78,13 +70,31 @@ h1 {
     padding: 10px;
 }
 
+.TwitterPhoto{
+	margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.GithubPhoto{
+	margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.MailPhoto{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
  .carousel-inner img {
       width: 100%;
       height: 100%;
   }
 
  .carrouselText{
- 	color: black;
+ 	color: white;
  }
 
  .button {
@@ -99,7 +109,7 @@ h1 {
     cursor: pointer;
 }
 
-.buttonCV {
+.buttonCV, .buttonTwitter, .buttonGithub {
 	background-color: #dc3545;
 }
 
