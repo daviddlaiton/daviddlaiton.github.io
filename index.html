@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+
+  <meta name="author" content="Andrés David Laiton">
+  <meta name="keywords" content="Andrés,David,Laiton">
+
   <title>Andrés David Laiton</title>
+  
   <!-- icon -->
   <link rel="icon" type="image/jpg" href="http://2.bp.blogspot.com/_CMyhmavayE8/TKeDXZ9b0sI/AAAAAAAAJfw/Q5KqzL6Yhlk/s1600/escudo%2520oficial%2520river.gif">
   <!-- ./icon -->
@@ -27,27 +32,29 @@
 
    <!-- navbar-->
 
-   <nav class="navbar navbar-expand-sm bg-danger navbar-dark sticky-top ">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Andrés David Laiton</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#skills">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#hobbies">Hobbies</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
+   <nav class="navbar navbar-expand-lg bg-danger navbar-dark sticky-top">
+     <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Andrés David Laiton</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hobbies">Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <!-- ./navbar -->
 
@@ -67,13 +74,13 @@
             <div class="BirthdayPhoto">
               <img src="img/Cake.jpg" alt="Birthday Cake" height="104" width="106">
             </div>
-            <div class="Birthday">August 31st</div>
+            <div class="Birthday">My birthday is August 31st</div>
           </div>
           <div class="col-sm-4">
             <div class="AgePhoto">
               <img src="img/21.jpg" alt="Age" height="104" width="106">
             </div>
-            <div class="Age">I'm 21 years old</div>
+            <div class="Age">I am 21 years old</div>
           </div>
           <div class="col-md-4">
             <div class="UniversityPhoto">
@@ -81,57 +88,128 @@
             </div>
             <div class="university">Enroled at Universidad de los Andes</div>
           </div>
+          <div class="col-md-4">
+            <div class="DegreePhoto">
+              <img src="img/Degree.jpg" alt="Degree photo" height="104" width="106">
+            </div>
+            <div class="university">Student of Industrial Engineering</div>
+          </div>
+          <div class="col-md-4">
+            <div class="ComputerPhoto">
+              <img src="img/Computer.jpg" alt="Computer photo" height="104" width="170">
+            </div>
+            <div class="university">Student of System and Computer Engineering</div>
+          </div>
+          <div class="col-md-4">
+            <div class="IoTPhoto">
+              <img src="img/IoT.png" alt="Computer photo" height="104" width="106">
+            </div>
+            <div class="university">Interested on IoT</div>
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <div class="CVPhoto">
+              <a href="https://docs.google.com/document/d/1crBC-0gt6xbTqYL3Xgb7tcW0duBWDjK9-6peHpc2jIs/edit?usp=sharing" target="_blank">
+                <img src="img/CV.jpg" alt="Computer photo" height="104" width="106">
+              </a>
+            </div>
+            <div class="university">
+              <button class="button buttonCV" onClick="window.open('https://docs.google.com/document/d/1crBC-0gt6xbTqYL3Xgb7tcW0duBWDjK9-6peHpc2jIs/edit?usp=sharing');">Check my CV!</button>
+             </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- ./About-->
+  </section>
+  <!-- ./About-->
 
-<!-- Skills section-->
-<section id="skills">
-  <br>
-  <div class="row">
-    <div class="col-md-4">
-      <h1>Skills</h1>
+  <!-- Skills section-->
+  <section id="skills">
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Skills</h1>
+      </div>
+      <div id="chartContainer" style="height: 370px; width: 100%;"></div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- -/Skills-->
+  <!-- -/Skills-->
 
-<!-- Projects section-->
-<section id="projects">
-  <br>
-  <div class="row">
-    <div class="col-md-4">
-      <h1>Projects</h1>
+  <!-- Projects section-->
+  <section id="projects">
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Projects</h1>
+      </div>
     </div>
-  </div>
-</section>
-<!-- -/Projects-->
+  </section>
+  <!-- -/Projects-->
 
-<!-- Hobbies section-->
-<section id="hobbies">
-  <br>
-  <div class="row">
-    <div class="col-md-4">
-      <h1>Hobbies</h1>
+  <!-- Hobbies section-->
+  <section id="hobbies">
+    <br>
+    <div class="row">
+      <div class="col-md-10">
+        <h1>Hobbies</h1>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-10">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/Halo.jpg" alt="Los Angeles" width="1100" height="500">
+                  <div class="carousel-caption">
+                    <h3 class="carrouselText">Videogames</h3>
+                    <p class="carrouselText">I love play videogames and Halo is my favorite one!</p>
+                  </div>   
+                </div>
+                <div class="carousel-item">
+                  <img src="img/River.png" alt="Chicago" width="1100" height="500">
+                  <div class="carousel-caption">
+                    <h3 class="carrouselText">Football</h3>
+                    <p class="carrouselText">Football is the sport that i love. I'm really fan of River Plate and Barcelona.</p>
+                  </div>   
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Barcelona.png" alt="New York" width="1100" height="500">
+                  <div class="carousel-caption">
+                    <h3 class="carrouselText">Football</h3>
+                    <p class="carrouselText">Football is the sport that i love. I'm really fan of River Plate and Barcelona.</p>
+                  </div>   
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
-<!-- -/Hobbies-->
+  </section>
+  <!-- -/Hobbies-->
 
-<!-- Contact section-->
-<section id="contact">
-  <br>
-  <div class="row">
-    <div class="col-md-4">
-      <h1>Contact</h1>
+  <!-- Contact section-->
+  <section id="contact">
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Contact</h1>
+      </div>
     </div>
-  </div>
-</section>
-<!-- -/Contact-->
+  </section>
+  <!-- -/Contact-->
 
 </div>
 
@@ -143,7 +221,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 </script>
 
-<!-- JS code for SmootScrool on links of the navbar-->
+<!-- JS code for SmootScroll on links of the navbar-->
 <script src="js/SmoothScroll.js"></script>
+
+<!-- JS code for skills graph-->
+<script src="js/SkillsGraph.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<script src="js/Collapse.js"></script>
 </body>
 </html>
