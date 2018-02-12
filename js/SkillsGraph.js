@@ -7,7 +7,8 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	},
 	axisY2:{
 		interlacedColor: "rgba(220,53,69,.2)",
-		gridColor: "rgba(220,53,69,.1)"
+		gridColor: "rgba(220,53,69,.1)",
+		title: "Knowledge in %"
 	},
 	data: [{
 		type: "bar",

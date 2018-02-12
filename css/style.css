@@ -14,22 +14,11 @@ h1 {
     margin-right: auto;
 }
 
-.BirthdayPhoto {
-   margin: auto;
+.BirthdayPhoto, .AgePhoto, .UniversityPhoto, .DegreePhoto, .ComputerPhoto, .IoTPhoto, .CVPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    padding: 10px;
-}
-
-.AgePhoto {
-   margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-.UniversityPhoto {
-	margin: auto;
-    width: 62%;
-    padding: 10px;
 }
 
 .profileImg{
@@ -45,31 +34,6 @@ h1 {
 .university, .Age, .Birthday, .Mail{
 	    text-align: center;
 }
-
-.DegreePhoto{
-	margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-.ComputerPhoto{
-	margin: auto;
-    width: 80%;
-    padding: 10px;
-}
-
-.IoTPhoto{
-	margin: auto;
-    width: 55%;
-    padding: 10px;
-}
-
-.CVPhoto{
-	margin: auto;
-    width: 55%;
-    padding: 10px;
-}
-
 .TwitterPhoto{
 	margin: auto;
     width: 90%;
