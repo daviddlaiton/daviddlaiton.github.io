@@ -1,0 +1,29 @@
+{
+    "About": {
+      "about": "Sobre mi",
+      "Birthday": "Mi cumpleaños es el 31 de Agosto.",
+      "Age": "Tengo 21 años.",
+      "University": "Estudio en la Universidad de los Andes",
+      "Industrial": "Soy estudiante de Ing. Industrial",
+      "CS": "Soy estudiante de Ing. de Sistemas y Computación.",
+      "IoT": "Estoy interesado en IoT.",
+      "buttonCV": "Hoja de Vida"
+    },
+    "Skills": {
+      "skills": "Habilidades",
+      "title": "Conocimiento en %"
+    },
+    "Hobbies": {
+      "hobbies": "aficiones",
+      "videogamesTitle": "Videojuegos",
+      "videogamesText": "Me encanta jugar videojuegos y mi favorito es Halo",
+      "footballTitle": "Fútbol",
+      "footballText": "Mi deporte favorito es el fútbol. Soy hincha de River Plate y Barcelona."
+    },
+    "Contact": {
+      "contact": "contactame",
+      "buttonTwitter": "¡Sigueme en Twitter!",
+      "buttonGithub": "¡Visita mi perfil de GitHub!",
+      "Mail": "Mi corre es ad.laiton10@uniandes.edu.co"
+    }
+  }

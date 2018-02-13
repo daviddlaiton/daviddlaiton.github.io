@@ -31,7 +31,7 @@ h1 {
     transform: scale(1.3);
 }
 
-.university, .Age, .Birthday, .Mail{
+.University, .Age, .Birthday, .Mail, .Industrial, .CS, .IoT{
 	    text-align: center;
 }
 .TwitterPhoto{
