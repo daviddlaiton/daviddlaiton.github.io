@@ -6,6 +6,7 @@
 
   <meta name="author" content="Andrés David Laiton">
   <meta name="keywords" content="Andrés,David,Laiton">
+  <meta name="description" content="Personal web page of Andrés David Laiton">
 
   <title>Andrés David Laiton</title>
 
@@ -15,9 +16,10 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Bootstrap stylesheet-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   <!--Google fonts links -->
   <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 
@@ -48,19 +50,19 @@
             <a class="nav-link" href="#">Andrés David Laiton</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About me</a>
+            <a class="nav-link aboutText" href="#about">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link skillsText" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link projectsText" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#hobbies">Hobbies</a>
+            <a class="nav-link hobbiesText" href="#hobbies">Hobbies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link contactText" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"></a>
@@ -72,7 +74,7 @@
             <a class="nav-link" href="#"></a>
           </li>
         </ul>
-        <button class="btn btn-default my-2 my-sm-0" type="submit">Ver en Español</button>
+        <button class="btn btn-default my-2 my-sm-0 buttonSpanish" type="submit">Ver en Español</button>
       </div>
     </nav>
     <!-- ./navbar -->
@@ -87,17 +89,17 @@
         </div>
         <div class="col-sm-6">
           <div class="row">
-            <h1>About me</h1>
+            <h1 class="aboutText">About me</h1>
             <div class="row">
               <div class="col-sm-4">
                 <div class="BirthdayPhoto">
-                  <img src="img/Cake.jpg" alt="Birthday Cake" height="104" width="106">
+                  <img src="img/Cake.jpg" alt="Birthday Cake photo" height="104" width="106">
                 </div>
                 <div class="Birthday">My birthday is August 31st</div>
               </div>
               <div class="col-sm-4">
                 <div class="AgePhoto">
-                  <img src="img/21.jpg" alt="Age" height="104" width="106">
+                  <img src="img/21.jpg" alt="Age photo" height="104" width="106">
                 </div>
                 <div class="Age">I am 21 years old</div>
               </div>
@@ -121,7 +123,7 @@
               </div>
               <div class="col-sm-4">
                 <div class="IoTPhoto">
-                  <img src="img/IoT.png" alt="Computer photo" height="104" width="106">
+                  <img src="img/IoT.png" alt="IoT photo" height="104" width="106">
                 </div>
                 <div class="IoT">Interested on IoT</div>
               </div>
@@ -129,11 +131,11 @@
               <div class="col-sm-4">
                 <div class="CVPhoto">
                   <a href="https://docs.google.com/document/d/1crBC-0gt6xbTqYL3Xgb7tcW0duBWDjK9-6peHpc2jIs/edit?usp=sharing" target="_blank">
-                    <img src="img/CV.jpg" alt="Computer photo" height="130" width="106">
+                    <img src="img/CV.jpg" alt="CV photo" height="130" width="106">
                   </a>
                 </div>
                 <div class="ButtonCV-class">
-                  <button class="button buttonCV" onClick="window.open('https://docs.google.com/document/d/1crBC-0gt6xbTqYL3Xgb7tcW0duBWDjK9-6peHpc2jIs/edit?usp=sharing');">Check my CV!</button>
+                  <button class="button buttonCV" onClick="window.open('https://docs.google.com/document/d/1crBC-0gt6xbTqYL3Xgb7tcW0duBWDjK9-6peHpc2jIs/edit?usp=sharing');"><a class="cvText">Check my CV!</a></button>
                 </div>
               </div>
             </div>
@@ -148,31 +150,31 @@
       <br>
       <div class="row">
         <div class="col-md-4">
-          <h1>Skills</h1>
+          <h1 class="skillsText">Skills</h1>
         </div>
         <div id="chartContainer" style="height: 370px; width: 100%;"></div>
       </div>
     </section>
 
-    <!-- -/Skills-->
+    <!-- ./Skills-->
 
     <!-- Projects section-->
     <section id="projects">
       <br>
       <div class="row">
         <div class="col-md-4">
-          <h1>Projects</h1>
+          <h1 class ="projectsText" >Projects</h1>
         </div>
       </div>
     </section>
-    <!-- -/Projects-->
+    <!-- ./Projects-->
 
     <!-- Hobbies section-->
     <section id="hobbies">
       <br>
       <div class="row">
         <div class="col-md-10">
-          <h1>Hobbies</h1>
+          <h1 class="hobbiesText">Hobbies</h1>
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-10">
@@ -184,21 +186,21 @@
                 </ul>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="img/Halo.jpg" alt="Los Angeles" width="1100" height="500">
+                    <img src="img/Halo.jpg" alt="Halo Photo" width="1100" height="500">
                     <div class="carousel-caption">
                       <h3 class="carrouselText videogamesTitle">Videogames</h3>
                       <p class="carrouselText videogamesText">I love play videogames and Halo is my favorite one!</p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="img/River.jpg" alt="Chicago" width="1100" height="500">
+                    <img src="img/River.jpg" alt="River Plate photo" width="1100" height="500">
                     <div class="carousel-caption">
                       <h3 class="carrouselText footballTitle">Football</h3>
                       <p class="carrouselText footballText">Football is the sport that i love. I'm fan of River Plate and Barcelona.</p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="img/Barcelona.jpg" alt="New York" width="1100" height="500">
+                    <img src="img/Barcelona.jpg" alt="Barcelona photo" width="1100" height="500">
                     <div class="carousel-caption">
                       <h3 class="carrouselText footballTitle">Football</h3>
                       <p class="carrouselText footballText">Football is the sport that i love. I'm fan of River Plate and Barcelona.</p>
@@ -217,14 +219,14 @@
         </div>
       </div>
     </section>
-    <!-- -/Hobbies-->
+    <!-- ./Hobbies-->
 
     <!-- Contact section-->
     <section id="contact">
       <br>
       <div class="row">
         <div class="col-md-10">
-          <h1>Contact</h1>
+          <h1 class="contactText">Contact</h1>
           <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-3">
@@ -233,7 +235,7 @@
                   <img src="img/Twitter.jpg" alt="Twitter logo" height="170" width="170">
                 </a>
               </div>
-              <button class="button buttonTwitter" onClick="window.open('https://twitter.com/David_Laiton');">Follow me on Twitter!</button>
+              <button class="button buttonTwitter" onClick="window.open('https://twitter.com/David_Laiton');"><a class="twitterText">Follow me on Twitter!</a></button>
             </div>
             <div class="col-sm-3">
               <div class="GithubPhoto">
@@ -241,7 +243,7 @@
                   <img src="img/Github.jpg" alt="Gitgub logo" height="170" width="170">
                 </a>
               </div>
-              <button class="button buttonGithub" onClick="window.open('https://github.com/daviddlaiton');">See my GitHub profile!</button>
+              <button class="button buttonGithub" onClick="window.open('https://github.com/daviddlaiton');"><a class="githubText">See my GitHub profile!</a></button>
             </div>
             <div class="col-sm-3">
               <div class="MailPhoto">
@@ -253,15 +255,31 @@
         </div>
       </div>
     </section>
-    <!-- -/Contact-->
+    <!-- ./Contact-->
+
+
+    <!--Footer-->
+    <br>
+    <footer class="footer">
+      <!--Copyright-->
+      <div class="footer-copyright">
+        <div class="container-fluid">
+          <br>
+          <a>© 2018 Copyright: Andrés David Laiton</a>
+          <br>
+          <br>
+        </div>
+      </div>
+      <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
 
   </div>
   <!-- ./container-->
 
   <!-- jQuery import-->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
@@ -282,7 +300,13 @@
   <!-- JS code for collapsing de navbar -->
   <script src="js/Collapse.js"></script>
 
+  <!-- JS code for load Slow-->
   <script src="js/LoadSlow.js"></script>
+
+  <!-- JS code for changing the language-->
+  <script src="js/ToEnglish.js"></script>
+  <script src="js/ToSpanish.js"></script>
+ 
 </body>
 
 </html>

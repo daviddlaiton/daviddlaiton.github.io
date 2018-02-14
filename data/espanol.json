@@ -1,4 +1,4 @@
-{
+[{
     "About": {
       "about": "Sobre mi",
       "Birthday": "Mi cumpleaños es el 31 de Agosto.",
@@ -13,17 +13,20 @@
       "skills": "Habilidades",
       "title": "Conocimiento en %"
     },
+    "Projects": {
+      "projects": "Proyectos"
+    },
     "Hobbies": {
-      "hobbies": "aficiones",
+      "hobbies": "Aficiones",
       "videogamesTitle": "Videojuegos",
-      "videogamesText": "Me encanta jugar videojuegos y mi favorito es Halo",
+      "videogamesText": "Me encanta jugar videojuegos y Halo es mi favorito",
       "footballTitle": "Fútbol",
       "footballText": "Mi deporte favorito es el fútbol. Soy hincha de River Plate y Barcelona."
     },
     "Contact": {
-      "contact": "contactame",
-      "buttonTwitter": "¡Sigueme en Twitter!",
-      "buttonGithub": "¡Visita mi perfil de GitHub!",
-      "Mail": "Mi corre es ad.laiton10@uniandes.edu.co"
+      "contact": "Contactame",
+      "twitterText": "¡Sigueme en Twitter!",
+      "githubText": "¡Visita mi perfil de GitHub!",
+      "Mail": "Mi correo es ad.laiton10@uniandes.edu.co"
     }
-  }
+  }]

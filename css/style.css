@@ -77,3 +77,12 @@ h1 {
 	background-color: #dc3545;
 }
 
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dc3545;
+    color: white;
+    text-align: center;
+ }
+
