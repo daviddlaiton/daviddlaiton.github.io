@@ -3,7 +3,6 @@
 function toSpanish() {
     $('.buttonSpanish').on('click', function () {
         $(this).removeClass('buttonSpanish').addClass('buttonEnglish');
-        $(this).text('See it on English');
         $('.container-fluid').hide();
         $('.container-fluid').fadeIn(400);
 
@@ -35,14 +34,6 @@ function toSpanish() {
             console.log("Español")
         });
     });
-
-    $('.buttonEnglish').on('click', function () {
-        $(this).removeClass('buttonEnglish').addClass('buttonSpanish');
-        console.log("Me vale mierda todo");
-        $(this).text('Ver en español');
-        document.location.reload(true);
-        console.log("Ingles")
-        });
 }
 
 $(document).ready(toSpanish);
