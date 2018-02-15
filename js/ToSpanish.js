@@ -23,6 +23,7 @@ function toSpanish() {
             $('.habitacionesText').text(information.Projects.habitacionesText);
             $('.minaText').text(information.Projects.minaText);
             $('.instafixText').text(information.Projects.instafixText);
+            $('.instafixWebpage').text(information.Projects.instafixWebpage);
 
             $('.hobbiesText').text(information.Hobbies.hobbies);
             $('.videogamesTitle').text(information.Hobbies.videogamesTitle);
