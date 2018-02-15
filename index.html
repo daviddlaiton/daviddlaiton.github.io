@@ -70,15 +70,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-          <button class="btn btn-default my-2 my-sm-0 buttonSpanish" type="submit">Ver en Español</button>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-          <button class="btn btn-default my-2 my-sm-0 buttonEnglish" type="submit">See it on English</button>
         </ul>
+        <button class="btn btn-default my-2 my-sm-0 buttonSpanish btn-space" type="button">Ver en Español</button>
+        <button class="btn btn-default my-2 my-sm-0 buttonEnglish btn-space" type="button">See it on English</button>
       </div>
     </nav>
     <!-- ./navbar -->
@@ -139,7 +133,9 @@
                   </a>
                 </div>
                 <div class="ButtonCV-class">
-                  <button class="button buttonCV" onClick="window.open('https://docs.google.com/document/d/1crBC-0gt6xbTqYL3Xgb7tcW0duBWDjK9-6peHpc2jIs/edit?usp=sharing');"><a class="cvText">Check my CV!</a></button>
+                  <button class="button buttonCV cvText" onClick="window.open('https://docs.google.com/document/d/1crBC-0gt6xbTqYL3Xgb7tcW0duBWDjK9-6peHpc2jIs/edit?usp=sharing');">
+                    Check my CV!
+                  </button>
                 </div>
               </div>
             </div>
@@ -166,131 +162,180 @@
     <section id="projects">
       <br>
       <div class="row">
-        <div class="col-md-4">
-          <h1 class ="projectsText" >Projects</h1>
+        <div class="col-md-10">
+          <h1 class="projectsText">Projects</h1>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+              <div class="Habitaciones">
+                <h3 href="Habitaciones">Habitaciones</h3>
+                <br>
+                <div class="habitacionesPhoto">
+                  <a href="https://github.com/Uniandes-ISIS2603-backup/201710-habitaciones_01" target="_blank">
+                    <img src="img/Bed.jpg" alt="Bed photo" height="170" width="170">
+                  </a>
+                </div>
+              </div>
+              <button class="button buttonHabitaciones" onClick="window.open('https://github.com/Uniandes-ISIS2603-backup/201710-habitaciones_01');">
+                <a class="habitacionesText">See the repository!</a>
+              </button>
+            </div>
+            <div class="col-md-3">
+              <div class="MinaPhoto">
+                <h3 href="Mina">Mina Samacá</h3>
+                <br>
+                <a href="https://github.com/ISIS2503/Grupo4" target="_blank">
+                  <img src="img/Mineria.jpg" alt="Mine photo" height="170" width="170">
+                </a>
+              </div>
+              <button class="button buttonMina" onClick="window.open('https://github.com/ISIS2503/Grupo4');">
+                <a class="minaText">See the repository!</a>
+              </button>
+            </div>
+            <div class="col-md-3">
+              <div class="InstafixPhoto">
+                <h3 href="Instafix">Instafix</h3>
+                <br>
+                <a href="https://github.com/ISIS2503/Grupo4" target="_blank">
+                  <img src="img/Instafix.png" alt="Instafix photo" height="170" width="170">
+                </a>
+              </div>
+              <button class="button buttonInstafix" onClick="window.open('https://github.com/ISIS2503/Grupo4');">
+                <a class="instafixText">See the repository!</a>
+              </button>
+            </div>
+          </div>
+
         </div>
       </div>
-    </section>
-    <!-- ./Projects-->
+  </div>
+  </div>
+  </section>
+  <!-- ./Projects-->
 
-    <!-- Hobbies section-->
-    <section id="hobbies">
-      <br>
-      <div class="row">
-        <div class="col-md-10">
-          <h1 class="hobbiesText">Hobbies</h1>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-10">
-              <div id="demo" class="carousel slide" data-ride="carousel">
-                <ul class="carousel-indicators">
-                  <li data-target="#demo" data-slide-to="0" class="active"></li>
-                  <li data-target="#demo" data-slide-to="1"></li>
-                  <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/Halo.jpg" alt="Halo Photo" width="1100" height="500">
-                    <div class="carousel-caption">
-                      <h3 class="carrouselText videogamesTitle">Videogames</h3>
-                      <p class="carrouselText videogamesText">I love play videogames and Halo is my favorite one!</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/River.jpg" alt="River Plate photo" width="1100" height="500">
-                    <div class="carousel-caption">
-                      <h3 class="carrouselText footballTitle">Football</h3>
-                      <p class="carrouselText footballText">Football is the sport that i love. I'm fan of River Plate and Barcelona.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/Barcelona.jpg" alt="Barcelona photo" width="1100" height="500">
-                    <div class="carousel-caption">
-                      <h3 class="carrouselText footballTitle">Football</h3>
-                      <p class="carrouselText footballText">Football is the sport that i love. I'm fan of River Plate and Barcelona.</p>
-                    </div>
+  <!-- Hobbies section-->
+  <section id="hobbies">
+    <br>
+    <div class="row">
+      <div class="col-md-10">
+        <h1 class="hobbiesText">Hobbies</h1>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-10">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/Halo.jpg" alt="Halo Photo" width="1100" height="500">
+                  <div class="carousel-caption">
+                    <h3 class="carrouselText videogamesTitle">Videogames</h3>
+                    <p class="carrouselText videogamesText">I love play videogames and Halo is my favorite one!</p>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
+                <div class="carousel-item">
+                  <img src="img/River.jpg" alt="River Plate photo" width="1100" height="500">
+                  <div class="carousel-caption">
+                    <h3 class="carrouselText footballTitle">Football</h3>
+                    <p class="carrouselText footballText">Football is the sport that i love. I'm fan of River Plate and Barcelona.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Barcelona.jpg" alt="Barcelona photo" width="1100" height="500">
+                  <div class="carousel-caption">
+                    <h3 class="carrouselText footballTitle">Football</h3>
+                    <p class="carrouselText footballText">Football is the sport that i love. I'm fan of River Plate and Barcelona.</p>
+                  </div>
+                </div>
               </div>
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ./Hobbies-->
+    </div>
+  </section>
+  <!-- ./Hobbies-->
 
-    <!-- Contact section-->
-    <section id="contact">
-      <br>
-      <div class="row">
-        <div class="col-md-10">
-          <h1 class="contactText">Contact</h1>
-          <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-3">
-              <div class="TwitterPhoto">
-                <a href="https://twitter.com/David_Laiton" target="_blank">
-                  <img src="img/Twitter.jpg" alt="Twitter logo" height="170" width="170">
-                </a>
-              </div>
-              <button class="button buttonTwitter" onClick="window.open('https://twitter.com/David_Laiton');"><a class="twitterText">Follow me on Twitter!</a></button>
-            </div>
-            <div class="col-sm-3">
-              <div class="GithubPhoto">
-                <a href="https://github.com/daviddlaiton" target="_blank">
-                  <img src="img/Github.jpg" alt="Gitgub logo" height="170" width="170">
-                </a>
-              </div>
-              <button class="button buttonGithub" onClick="window.open('https://github.com/daviddlaiton');"><a class="githubText">See my GitHub profile!</a></button>
-            </div>
-            <div class="col-sm-3">
-              <div class="MailPhoto">
-                <img src="img/Mail.jpg" alt="Mail image" height="170" width="170">
-              </div>
-              <div class="Mail">E-mail me at ad.laiton10@uniandes.edu.co</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ./Contact-->
-
-
-    <!--Footer-->
+  <!-- Contact section-->
+  <section id="contact">
     <br>
-    <footer class="footer">
-      <!--Copyright-->
-      <div class="footer-copyright">
-        <div class="container-fluid">
-          <br>
-          <a>© 2018 Copyright: Andrés David Laiton</a>
-          <br>
-          <br>
+    <div class="row">
+      <div class="col-md-10">
+        <h1 class="contactText">Contact</h1>
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-3">
+            <div class="TwitterPhoto">
+              <a href="https://twitter.com/David_Laiton" target="_blank">
+                <img src="img/Twitter.jpg" alt="Twitter logo" height="170" width="170">
+              </a>
+            </div>
+            <button class="button buttonTwitter twitterText" onClick="window.open('https://twitter.com/David_Laiton');">
+              Follow me on Twitter!
+            </button>
+          </div>
+          <div class="col-sm-3">
+            <div class="GithubPhoto">
+              <a href="https://github.com/daviddlaiton" target="_blank">
+                <img src="img/Github.jpg" alt="Gitgub logo" height="170" width="170">
+              </a>
+            </div>
+            <button class="button buttonGithub githubText" onClick="window.open('https://github.com/daviddlaiton');">
+              See my GitHub profile!
+            </button>
+          </div>
+          <div class="col-sm-3">
+            <div class="MailPhoto">
+              <img src="img/Mail.jpg" alt="Mail image" height="170" width="170">
+            </div>
+            <div class="Mail">E-mail me at ad.laiton10@uniandes.edu.co</div>
+          </div>
         </div>
       </div>
-      <!--/.Copyright-->
+    </div>
+  </section>
+  <!-- ./Contact-->
 
-    </footer>
-    <!--/.Footer-->
+
+  <!--Footer-->
+  <br>
+  <footer class="footer">
+    <!--Copyright-->
+    <div class="footer-copyright">
+      <div class="container-fluid">
+        <br>
+        <a>© 2018 Copyright: Andrés David Laiton</a>
+        <br>
+        <br>
+      </div>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
 
   </div>
   <!-- ./container-->
 
   <!-- jQuery import-->
   <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
 
   <!-- Bootstrap 4 import-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
+  <!-- AJAX import-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
   </script>
 
@@ -307,10 +352,12 @@
   <!-- JS code for load Slow-->
   <script src="js/LoadSlow.js"></script>
 
-  <!-- JS code for changing the language-->
+  <!-- JS code for changing the language to English-->
   <script src="js/ToEnglish.js"></script>
+
+  <!-- JS code for changing the language to Spanish-->
   <script src="js/ToSpanish.js"></script>
- 
+
 </body>
 
 </html>

@@ -14,7 +14,10 @@
       "title": "Conocimiento en %"
     },
     "Projects": {
-      "projects": "Proyectos"
+      "projects": "Proyectos",
+      "habitacionesText": "Mira el repositorio",
+      "minaText": "Mira el repositorio",
+      "instafixText" : "Mira el repositorio"
     },
     "Hobbies": {
       "hobbies": "Aficiones",

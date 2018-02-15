@@ -20,6 +20,9 @@ function toSpanish() {
             $('.skillsText').text(information.Skills.skills);
 
             $('.projectsText').text(information.Projects.projects);
+            $('.habitacionesText').text(information.Projects.habitacionesText);
+            $('.minaText').text(information.Projects.minaText);
+            $('.instafixText').text(information.Projects.instafixText);
 
             $('.hobbiesText').text(information.Hobbies.hobbies);
             $('.videogamesTitle').text(information.Hobbies.videogamesTitle);
@@ -31,7 +34,6 @@ function toSpanish() {
             $('.twitterText').text(information.Contact.twitterText);
             $('.githubText').text(information.Contact.githubText);
             $('.Mail').text(information.Contact.Mail);
-            console.log("Español")
         });
     });
 }
