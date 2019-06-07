@@ -15,8 +15,8 @@ h1 {
 }
 
 .profileImg {
-    height : 540;
-     width : 432
+    height: 540;
+    width: 432
 }
 
 .profileImgDiv {
@@ -38,8 +38,21 @@ h1 {
     transform: scale(1.2);
 }
 
-.University, .Age, .Birthday, .Mail, .Industrial, .CS, .IoT, .HabitacionesText {
+.University, .Age, .Birthday, .Industrial, .CS, .IoT, .HabitacionesText {
     text-align: center;
+}
+
+.Mail {
+    text-align: center;
+    color : #dc3545;
+    top: 5%;
+    width: 100px;
+}
+
+.Mail:hover {
+    cursor: pointer;
+    color : #dc3545;
+    text-decoration: underline;
 }
 
 .TwitterPhoto {
@@ -79,27 +92,26 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     margin-top: 5%;
-}
-
-.buttonTwitter, .buttonGithub, .buttonHabitaciones, .buttonMina, .buttonInstafix {
+    margin-left: -5%;
+    border-radius: 5px;     
     background-color: #dc3545;
 }
 
 .buttonCV {
-    background-color: white;
-    color: black;
+    color: white;
     border-radius: 5px;
     align-items: center;
     white-space: nowrap;
 }
 
 .footer {
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: #dc3545;
     color: white;
     text-align: center;
+    height: 60px;
+    margin-bottom: 5px;
+    position: relative;
 }
 
 .btn-space {
@@ -108,11 +120,13 @@ h1 {
 
 .basicInfoText {
     text-align: center;
-    color: white;
+    color: black;
     margin-top: 25%;
     display: inline-block;
 }
 
-.aboutSection {
-    background-color: #DC3544;
+.footerText {
+    margin-left: -10%;
+    position: absolute;
+    top: 30%;
 }

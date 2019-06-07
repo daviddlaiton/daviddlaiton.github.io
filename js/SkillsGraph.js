@@ -30,11 +30,11 @@ window.onload = function () {
 			//Datapoints of each language.
 			dataPoints: [
 				{ y: 100, label: "Java" },
-				{ y: 50, label: "JavaScript" },
-				{ y: 30, label: "Python" },
+				{ y: 100, label: "JavaScript" },
+				{ y: 50, label: "Python" },
 				{ y: 70, label: "C" },
 				{ y: 60, label: "C++" },
-				{ y: 80, label: "HTML" }
+				{ y: 100, label: "HTML" }
 			]
 		}]
 	});
