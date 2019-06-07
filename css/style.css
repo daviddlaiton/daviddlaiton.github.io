@@ -1,67 +1,74 @@
 body {
-  font-size: 20px; 
-  font-family: 'Karla', sans-serif;
-  color: #868e96;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    color: #868e96;
 }
 
 h1 {
-	color: #343a40;
+    color: #343a40;
 }
 
-.banner{
+.banner {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.BirthdayPhoto, .AgePhoto, .UniversityPhoto, .DegreePhoto, .ComputerPhoto, .IoTPhoto, .CVPhoto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.profileImg {
+
 }
 
-.profileImg{
-    padding: 5x0px;
-    transition: transform .2s; /* Animation */
-    margin: 0 auto;
+.profileImgDiv {
+    overflow: hidden;
+    height: 540px;
+    width: 432px;
+    margin-bottom: 4%;
+    transition: transform .2s;
+    /* Animation */
 }
 
-.profileImg:hover {
-    transform: scale(1.3);
+.profileImgDiv img {
+    height: 755px;
+    width: 605px;
+    margin: -75px 0 0 -150px;
 }
 
-.University, .Age, .Birthday, .Mail, .Industrial, .CS, .IoT, .HabitacionesText{
-	    text-align: center;
+.profileImgDiv:hover {
+    transform: scale(1.2);
 }
-.TwitterPhoto{
-	margin: auto;
+
+.University, .Age, .Birthday, .Mail, .Industrial, .CS, .IoT, .HabitacionesText {
+    text-align: center;
+}
+
+.TwitterPhoto {
+    margin: auto;
     width: 90%;
     padding: 10px;
 }
 
-.GithubPhoto{
-	margin: auto;
+.GithubPhoto {
+    margin: auto;
     width: 90%;
     padding: 10px;
 }
 
-.MailPhoto{
-	margin: auto;
+.MailPhoto {
+    margin: auto;
     width: 60%;
     padding: 10px;
 }
 
- .carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
 
- .carrouselText{
- 	color: white;
- }
+.carrouselText {
+    color: white;
+}
 
- .button {
+.button {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -69,12 +76,20 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
+    margin-top: 5%;
 }
 
-.buttonCV, .buttonTwitter, .buttonGithub, .buttonHabitaciones, .buttonMina, .buttonInstafix {
-	background-color: #dc3545;
+.buttonTwitter, .buttonGithub, .buttonHabitaciones, .buttonMina, .buttonInstafix {
+    background-color: #dc3545;
+}
+
+.buttonCV {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    align-items: center;
+    white-space: nowrap;
 }
 
 .footer {
@@ -84,8 +99,19 @@ h1 {
     background-color: #dc3545;
     color: white;
     text-align: center;
- }
+}
 
- .btn-space {
+.btn-space {
     margin-right: 10px;
+}
+
+.basicInfoText {
+    text-align: center;
+    color: white;
+    margin-top: 25%;
+    display: inline-block;
+}
+
+.aboutSection {
+    background-color: #DC3544;
 }
