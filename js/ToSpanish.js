@@ -1,4 +1,6 @@
 "use strict";
+/* Me gustó que utilizara JQuery para realizar la traducción de la página basándose en un JSON, buen trabajo.
+*/
 
 //Function to change the language to Spanish
 function toSpanish() {
